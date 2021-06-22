@@ -1,11 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script type="text/javascript">
+  </script>
   <meta charset="utf-8">
   <title>FirstApp</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- <script type=text/javascript src="./boomerang/boomerang-1.0.0.js"></script> -->
+  <!-- <script type=text/javascript src="/src/boomerang/boomerang-1.0.0.js"></script> -->
+  <!-- <script type=text/javascript src="/src/boomerang/boomerang-1.0.0.js"></script> -->
+  <!-- <script type=text/javascript src="./boomerang/plugins/spa.min.js"></script>
+  <script type=text/javascript src="./boomerang/boomerang-1.0.0.js"></script>
+  <script type=text/javascript src="./boomerang/plugins/rt.min.js"></script> -->
+  <script src="http://192.168.121.164:3000/build/boomerang-1.0.0.js"></script>
+  <!-- <script src="./build/plugins/spa.min.js"></script>
+  <script src="./build/plugins/rt.min.js"></script>
+  <script src="./build/plugins/angular.min.js"></script> -->
+  <script>
+    BOOMR.init({
+      beacon_url: "http://192.168.121.167:8888/beacon"
+    });
+  </script>
 </head>
 <body>
   <app-root></app-root>
